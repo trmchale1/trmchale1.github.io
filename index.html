@@ -1,343 +1,186 @@
-<!doctype html>
-<head>
-<meta charset="utf-8">
-<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
-<meta name="description" content="Tim's Personal Brand."/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
-<link href="/view/css/bootstrap.min.css" rel="stylesheet" />
-<link href="/view/style.css" rel="stylesheet" />
-<title>Tim McHale</title>
-<link rel="canonical" href="https://themes.getbootstrap.com/products/marketing" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-<!-- Bootstrap -->
-<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
-<link href="../assets/css/toolkit-minimal.css" rel="stylesheet"
-<link href="../assets/css/application-minimal.css" rel="stylesheet">
-</head>
-<body>
-    <h1>Tim McHale</h1>
-  <div class="e ajg">
-  <nav class="du st sp bwd ayt app-navbar ahz">
-    <button
-      class="sj sm azl"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarResponsive"
-      aria-controls="navbarResponsive"
-      aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="sk"></span>
-    </button>
+    <title>Carousel Template for Bootstrap</title>
 
-    <a class="l ajv" href="../">
-      <span>Mochi</span>
-    </a>
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <div class="collapse so" id="navbarResponsive">
-      <ul class="nav navbar-nav ajx">
-        <li class="m ">
-          <a class="sb" href="..//index.html">StartUp</a>
-        </li>
-        <li class="m active">
-          <a class="sb" href="../minimal/index.html">Minimal</a>
-        </li>
-        <li class="m ">
-          <a class="sb" href="../bold/index.html">Bold</a>
-        </li>
-        <li class="m ">
-          <a class="sb" href="../docs/index.html">Docs</a>
-        </li>
-      </ul>
-    </div><!--/.nav-collapse -->
-</nav>
-</div>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
 
-
-<div class="k n">
-  <div class="e baa">
-    <h1 class="brl agq ayt bwe">Mochi</h1>
-    <p class="al ahz ajp">Task management and a calendar for all</p>
-    <img src="../assets/img/iphone-to-iphone-sized.jpg">
-  </div>
-</div>
-
-<div class="k brc">
-  <div class="e ayf v" data-transition="entrance">
-    <blockquote class="btc">
-      <img class="xo" src="../assets/img/avatar-mdo.png">
-      <p>
-        “Task management. Calendars. Email. They all have one thing in common&hellip;literally no one enjoys managing them. Thanks to years of research, we can now predict every single thing you'll ever have to do or go to. Yeah, we're that good.”
-      </p>
-      <cite>Mark Otto, Creator of Mochi</cite>
-    </blockquote>
-  </div>
-</div>
-
-<div class="k brc aig p">
-  <div class="e">
-    <div class="c">
-      <div class="gs ge">
-        <img
-          src="../assets/img/iphone-perspective-sized.jpg"
-          class="x"
-          data-transition="entrance">
-        <hr class="ago ahz ajy azl">
-      </div>
-      <div class="gq ge ayf ayj ajp">
-        <p class="al">
-          We've been working for over 100 years to build the best possible app for all your needs. We're glad that others agree.
-        </p>
-        <div class="c ahv">
-          <div class="ff ahl">
-            <div class="bvz">
-              <h1 class="bsr brl">92m</h1>
-              <span class="bss">Downloads</span>
-            </div>
-          </div>
-          <div class="ff ahl">
-            <div class="bvz">
-              <h1 class="bsr brl">8m</h1>
-              <span class="bss">Reviews</span>
-            </div>
-          </div>
-        </div>
-        <div class="c ahl azm">
-          <div class="ff ahl">
-            <div class="bvz">
-              <h1 class="bsr brl">78k</h1>
-              <span class="bss">Developers</span>
-            </div>
-          </div>
-          <div class="ff ahl">
-            <div class="bvz">
-              <h1 class="bsr brl">97%</h1>
-              <span class="bss">Happiness</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="k brc">
-  <div class="e">
-    <div class="c">
-    <div class="ft kc ayf ahz">
-      <p class="al ajy">With over <strong>20 years of collective experience</strong>, we take the unthinkable and make it just a couple quick taps away.</p>
-    </div>
-    </div>
-    <div class="c">
-      <div class="fr">
-        <ul class="dp">
-          <li class="ahz">
-            <div class="bsg ayz">
-              <span class="a bil"></span>
-            </div>
-            <p class="bsf agq"><strong>Upload unlimited images</strong></p>
-            <p class="bsf">
-              We process all the images you upload and take full advantage of modern cloud based storage to host them at blazing fast speeds.
-            </p>
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Carousel</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-
-          <li class="ahz">
-            <div class="bsg ayz">
-              <span class="a bih"></span>
-            </div>
-            <p class="bsf agq"><strong>Tracked time savings</strong></p>
-            <p class="bsf">
-              This means you save tons of time by using our world class task manager and calendar and constantly reminds you how great it is.
-            </p>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
           </li>
-
-        </ul>
-      </div>
-      <div class="fr">
-        <ul class="dp">
-
-          <li class="ahz">
-            <div class="bsg ayz">
-              <span class="a bef"></span>
-            </div>
-            <p class="bsf agq"><strong>Share from anywhere</strong></p>
-            <p class="bsf">
-              Do it over the cloud, from anywhere, on any device. Mochi is super fast and always available, to not only you, but all your friends
-            </p>
-          </li>
-
-          <li class="ahz">
-            <div class="bsg ayz">
-              <span class="a bgh"></span>
-            </div>
-            <p class="bsf agq"><strong>Use stickers and express yourself</strong></p>
-            <p class="bsf">
-              Share with emoji anyone in the world. We've baked them directly into Mochi. These probably won't help with productivity though.
-            </p>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
           </li>
         </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
-    </div>
-  </div>
-</div>
+    </nav>
 
-<div class="k brc aih aie aif">
-  <div id="carousel-example-generic" class="carousel ds slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    </ol>
-    <div class="wg" role="listbox">
-      <div class="wh active">
-        <div class="k">
-          <div class="e">
-            <div class="c">
-              <div class="ft kc">
-                <p class="al ajy ayf">
-                  Instead of guessing how much time you spend on each of your tasks, why not have automagically record everything and have easy reporting without lifting a finger? <span class="bwf">Well now you can with ease.</span>
-                </p>
-              </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-left">
+              <h1>Example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
             </div>
-            <img class="er ahx q xu er" src="../assets/img/iphone-flat-sized.jpg">
           </div>
         </div>
-      </div>
-      <div class="wh">
-        <div class="k">
-          <div class="e">
-            <div class="c">
-              <div class="ft kc">
-                <p class="al ajy ayf">
-                  Instead of guessing how much time you spend on each of your tasks, why not have automagically record everything and have easy reporting without lifting a finger? <span class="bwf">Well now you can with ease.</span>
-                </p>
-              </div>
+        <div class="carousel-item">
+          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
-            <img class="er ahx q xu er" src="../assets/img/iphone-flat-sized.jpg">
           </div>
         </div>
-      </div>
-      <div class="wh">
-        <div class="k">
-          <div class="e">
-            <div class="c">
-              <div class="ft kc">
-                <p class="al ajy ayf">
-                  Instead of guessing how much time you spend on each of your tasks, why not have automagically record everything and have easy reporting without lifting a finger? <span class="bwf">Well now you can with ease.</span>
-                </p>
-              </div>
-            </div>
-            <img class="er ahx q xu er" src="../assets/img/iphone-flat-sized.jpg">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <a class="wm" href="#carousel-example-generic" role="button" data-slide="prev">
-      <span class="a bat" aria-hidden="true"></span>
-      <span class="agb">Previous</span>
-    </a>
-    <a class="wn" href="#carousel-example-generic" role="button" data-slide="next">
-      <span class="a bau" aria-hidden="true"></span>
-      <span class="agb">Next</span>
-    </a>
-  </div>
-</div>
-
-<div class="k brc bqy aig r">
-  <div class="e">
-    <div class="c s">
-      <div class="fs ayf ayg">
-        <p class="al">
-          We focused on design relentlessly. We loved it so much, we spent just as much time taking these crazy high resolution photos. Here are some more stats on that.
-        </p>
-        <div class="c">
-          <div class="fd">
-            <div class="bvz">
-              <h1 class="bsr brl">1m</h1>
-              <span class="bss">Photos</span>
-            </div>
-          </div>
-          <div class="fd">
-            <div class="bvz">
-              <h1 class="bsr brl">2k</h1>
-              <span class="bss">gigs</span>
-            </div>
-          </div>
-          <div class="fd">
-            <div class="bvz">
-              <h1 class="bsr brl">7</h1>
-              <span class="bss">Friends</span>
+        <div class="carousel-item">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-right">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
             </div>
           </div>
         </div>
       </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  </div>
-  <div class="aye t">
-    <img src="../assets/img/iphone-reverse-perspective-sized.jpg" class="w" data-transition="entrance">
-  </div>
-</div>
-
-<div class="k brc ayf">
-  <div class="ex">
-    <p class="al ahs">
-      Join over 900,000 nerds already using Mochi. Get the Mochi App <strong>free</strong> forever!
-    </p>
-    <form class="qm xx zr">
-      <input class="form-control ahl" placeholder="email address">
-      <input class="form-control ahl agz" type="password" placeholder="Create a Password">
-      <button class="dm qq ahl">Get started</button>
-    </form>
-    <small class="an">
-      By clicking "Get started" I agree to Mochi's
-      <a href="#">Terms of service</a>
-    </small>
-  </div>
-</div>
-
-<div class="k u">
-  <div class="e">
-    <div class="c">
-      <div class="fn ahs">
-        <ul class="ek azv">
-          <li><h6 class="ayt">Products</h6></li>
-          <li>Todo</li>
-          <li>Calendario</li>
-          <li>Email Town</li>
-          <li>Pomodorotary</li>
-          <li>ChillTower</li>
-        </ul>
-      </div>
-      <div class="fn ahs">
-        <ul class="ek azv">
-          <li><h6 class="ayt">Extras</h6></li>
-          <li>AutotuneU</li>
-          <li>Freestyler</li>
-          <li>Chillaxation</li>
-        </ul>
-      </div>
-      <div class="fn ahs">
-        <ul class="ek azv">
-          <li><h6 class="ayt">Support</h6></li>
-          <li>Online Support</li>
-          <li>Telephone Sales</li>
-          <li>Help Desk</li>
-          <li>Workshops</li>
-        </ul>
-      </div>
-       <div class="fr">
-        <h6 class="ayt">About</h6>
-        <p>Shoutout to Invision team for creating the <a href="http://www.invisionapp.com/do">Do UI kit</a> that we used to fake our app screenshots. Also to the Dribbble community for providing phone mockups that look amazing.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
 
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/tether.min.js"></script>
-    <script src="../assets/js/toolkit.js"></script>
-    <script src="../assets/js/application.js"></script>
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 push-md-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 pull-md-7">
+          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
-  </html>
+</html>
